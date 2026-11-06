@@ -1,36 +1,62 @@
-🔋 EV Battery Fault Detection Using LSTM Autoencoder
+# 🔋 EV Battery Fault Detection Using LSTM Autoencoder
+
 An AI-based system for detecting anomalous behavior in electric vehicle battery sensor data using an LSTM Autoencoder.
 
-📌 Project Overview
+## 📌 Project Overview
+
 This project monitors EV battery behavior using:
 
-Voltage
-Current
-Temperature
+- Voltage
+- Current
+- Temperature
+
 An LSTM Autoencoder learns patterns from early battery cycles and detects abnormal behavior using reconstruction error.
 
-🧠 System Architecture
-Battery Dataset ↓ Data Extraction ↓ Preprocessing ↓ Sequence Creation ↓ LSTM Autoencoder ↓ Reconstruction Error ↓ Anomaly Threshold ↓ Normal / Anomaly ↓ Streamlit Dashboard
+## 🧠 System Architecture
 
-🚀 Features
-Battery sensor data extraction
-Voltage/current/temperature monitoring
-Data normalization
-Time-series sequence generation
+Battery Dataset
+↓
+Data Extraction
+↓
+Preprocessing
+↓
+Sequence Creation
+↓
 LSTM Autoencoder
-Reconstruction-error based anomaly detection
-Cycle-level anomaly analysis
-Interactive Streamlit dashboard
-Battery sensor visualization
-🛠️ Technologies
-Python
-NumPy
-Pandas
-Scikit-learn
-TensorFlow / Keras
-Matplotlib
-Streamlit
-📂 Project Structure
+↓
+Reconstruction Error
+↓
+Anomaly Threshold
+↓
+Normal / Anomaly
+↓
+Streamlit Dashboard
+
+## 🚀 Features
+
+- Battery sensor data extraction
+- Voltage/current/temperature monitoring
+- Data normalization
+- Time-series sequence generation
+- LSTM Autoencoder
+- Reconstruction-error based anomaly detection
+- Cycle-level anomaly analysis
+- Interactive Streamlit dashboard
+- Battery sensor visualization
+
+## 🛠️ Technologies
+
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+- TensorFlow / Keras
+- Matplotlib
+- Streamlit
+
+## 📂 Project Structure
+
+```text
 EV-Battery-Fault-Detection/
 │
 ├── app/
